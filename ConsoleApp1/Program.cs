@@ -10,7 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HelloWord");
+            Console.WriteLine("Hello, Kris!");
+
+            string firstFriend = "Gabrial";
+
+            string secondFriend = "Natalia";
+
+            Console.WriteLine($"My friend are {firstFriend} and {secondFriend}")
         }
     }
 }
