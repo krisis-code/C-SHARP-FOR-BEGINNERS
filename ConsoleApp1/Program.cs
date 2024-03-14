@@ -12,11 +12,16 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello, Kris!");
 
-            string firstFriend = "Gabrial";
-
+            string firstFriend = "            Gabrial           ";
+            //Sondaki boşlukları siler
+            firstFriend = firstFriend.TrimEnd();
             string secondFriend = "Natalia";
 
-            Console.WriteLine($"My friend are {firstFriend} and {secondFriend}")
+            String lastFriend = "      Andrea      ";
+            //TrimStart Sondaki boşlukları siler
+            //Trim ise tüm boşlukları siler
+            Console.WriteLine($"My friends are {firstFriend.TrimStart()},{secondFriend.Trim()} and {lastFriend.Trim()}");
+            Console.ReadKey();
         }
     }
 }
